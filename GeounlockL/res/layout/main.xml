@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/challengeView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/challenge" />
+
+    <fragment
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.78"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/affirm" />
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/deny" />
+
+</LinearLayout>

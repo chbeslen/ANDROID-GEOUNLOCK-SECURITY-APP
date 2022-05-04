@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/start_service"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/start_service"/>
+    <item
+        android:id="@+id/end_service"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/end_service"/>
+     <item
+        android:id="@+id/location_list"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/location_list"/>
+    <item
+        android:id="@+id/all_locations"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/all_locations"/>
+    <item
+        android:id="@+id/action_normal"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/bNormal"/>
+    <item
+        android:id="@+id/action_satellite"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/bSatellite"/>
+    <item
+        android:id="@+id/action_terrain"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/bTerrain"/>
+</menu>
